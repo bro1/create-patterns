@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Create patterns from log file entries</title>
+        <meta name="description" content="A tool to draw branch and merge diagrams. 
+              This is useful when planning a project's branching and merging strategy.">
+        <meta name="keywords" content="branch and merge planning,branch and merge diagrams,diagrams for branching and merging">
+        <meta name="author"  content="Linas Jakučionis">
+        
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+    </head>
+
+    <body>
+        
+        <table>
+            <tr>
+                <td valign="top">
+                    <textarea id="logEntries" cols="60" rows="50">blah end aaa 1943 ()
+blah begin DET1 ()</textarea><br>
+        <button type="button" onclick="refresh();">Refresh</button>
+                </td>
+                <td>
+        <div id="detail">lorem ipsum</div>
+                </td>
+            </tr>
+        </table>
+
+        <script src="bm.js"></script>
+        
+        
+    </body>
+
+</html>
